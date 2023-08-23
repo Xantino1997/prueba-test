@@ -1,0 +1,79 @@
+.container-disco {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+/* Discografia.css */
+.disc {
+  position: relative;
+  width: calc(25% - 10px);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Agregar transición para suavizar el cambio */
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Colocar el video detrás del contenido */
+  opacity: 1; /* Ajustar la opacidad del video si es necesario */
+}
+
+/* Resto de tus estilos aquí */
+
+
+.disc::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  transition: opacity 0.3s ease; /* Agregar transición para suavizar el cambio */
+}
+
+.disc:hover::before {
+  opacity: 0; /* Desaparece la capa en hover */
+}
+
+.disc:not(:hover) {
+ 
+  background-color: rgba(0, 0, 0, 0.7); /* Establece el color de fondo en estado no hover */
+}
+
+
+.disc h4,
+.disc .titulo-disco {
+  font-size: 30px;
+  z-index: 2;
+  padding: 20px;
+  border-radius: 15px;
+  font-family: 'Amatic SC', cursive;
+
+}
+
+
+
+
+.disc:hover h4,
+.disc:hover .titulo-disco {
+  color: transparent; /* Hace los elementos h4 y .titulo-disco transparentes en estado de hover */
+}

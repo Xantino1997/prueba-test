@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
+.container {
+  display: flex;
+  background: lightblue;
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size:25px;
+  font-weight:bold;
+  padding: 10px;
+  margin:10px;
+  text-shadow: 2px 2px 4px #000;
+}
+.image-canta {
+  height: 60vh;
+  max-width: 100%;
+}
+.left-div {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.right-div {
+  flex: 2;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.sub-div {
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.red {
+  background-color: #eb4034;
+}
+
+.blue {
+  background-color: #344ceb;
+}
+
+.green {
+  background-color: #60f736;
+}
+
+.yellow {
+  background-color: #f7ee36;
+}
+
+.orange {
+  background-color: #f78036;
+}
+
+.purple {
+  background-color: #b736f7;
+}
+
+.btn-div{
+  color: #333;
+  font-weight: bold;
+  background-color: #fff;
+  border-radius:15px;
+  cursor: pointer;
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #fff;
+}
+.btn-div:hover{
+  color: #fff;
+  background-color: lightblue;
+  box-shadow: 0 0 10px blue;
+}

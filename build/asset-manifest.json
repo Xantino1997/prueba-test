@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a72f7793.css",
+    "main.js": "/static/js/main.b775c57c.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/woman-video.mp4": "/static/media/woman-video.421aacdba48b427cbb03.mp4",
+    "static/media/mujerProfe2.png": "/static/media/mujerProfe2.e5522227663af08304da.png",
+    "static/media/profeIdioma.png": "/static/media/profeIdioma.cabc383014e941182ae6.png",
+    "static/media/profeBajo.png": "/static/media/profeBajo.6a6f108ae0a7ff3eb612.png",
+    "static/media/profeHombre2.png": "/static/media/profeHombre2.11f6a79344363e67d362.png",
+    "static/media/profeMusica.png": "/static/media/profeMusica.6ec48b4ef1e5a7e0b6cc.png",
+    "static/media/profeInformatica.png": "/static/media/profeInformatica.c712c07b2775f4fa05fe.png",
+    "static/media/contactanos.png": "/static/media/contactanos.f6130496502e81d191ec.png",
+    "static/media/eduteca.png": "/static/media/eduteca.925e96fed73c9aae18bd.png",
+    "static/media/certificado2.png": "/static/media/certificado2.5dc91c91e2598a7ac208.png",
+    "index.html": "/index.html",
+    "main.a72f7793.css.map": "/static/css/main.a72f7793.css.map",
+    "main.b775c57c.js.map": "/static/js/main.b775c57c.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a72f7793.css",
+    "static/js/main.b775c57c.js"
+  ]
+}

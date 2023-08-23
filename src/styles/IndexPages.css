@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
+.container {
+  display: flex;
+  flex-direction: row; /* Invertir el orden de los elementos */
+  background: lightblue;
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.image-canta {
+  height: 60vh;
+  max-width: 100%;
+}
+
+.left-div {
+  flex: 1; /* Ajusta la proporción para ocupar más espacio */
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.right-div {
+  flex: 2; /* Ajusta la proporción para ocupar menos espacio */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+
+.sub-div {
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.red {
+  background-color: #eb4034;
+}
+
+.blue {
+  background-color: #344ceb;
+}
+
+.green {
+  background-color: #60f736;
+}
+
+.yellow {
+  background-color: #f7ee36;
+}
+
+.orange {
+  background-color: #f78036;
+}
+
+.purple {
+  background-color: #b736f7;
+}
+
+.btn-div{
+  color: #333;
+  font-weight: bold;
+  background-color: #fff;
+  border-radius:15px;
+  cursor: pointer;
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #fff;
+}
+.btn-div:hover{
+  color: #fff;
+  background-color: lightblue;
+  box-shadow: 0 0 10px blue;
+}
+
+.carousel-index {
+  display: flex;
+  width: 50%;
+  overflow: hidden;
+}
+
+.carousel-item-index {
+  opacity: 0;
+  position: absolute;
+  top: 3%;
+  left: 2%;
+  width: 47%;
+  height: 99.6%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item-index.active {
+  opacity: 1;
+  animation: fade-in 1s ease-in-out;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.carousel-content {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  height: 20%;
+  top: 37%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-content-description{
+  width: 100%;
+  top:50%;
+  font-size:45px
+}
